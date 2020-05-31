@@ -1,11 +1,8 @@
-package com.fjut.service;
 
-import org.springframework.stereotype.Component;
 
 /**
  * 地区平均速度排行
  */
-@Component
 public interface CitysSpeedService {
 
     /**
@@ -13,5 +10,10 @@ public interface CitysSpeedService {
      * rank_citys_speed
      */
     public void paoyouCitysSpeedServiceRanking();
+
+
+    public void paoyouCitysSpeedServiceRanking1();
+
+    public void paoyouCitysSpeedServiceRanking2();
 
 }
